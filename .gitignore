@@ -1,0 +1,35 @@
+# compiled output
+corpback/dist
+corpback/node_modules
+corpfront/node_modules
+
+# Logs
+corpback/logs
+corpback/*.log
+corpback/npm-debug.log*
+corpback/yarn-debug.log*
+corpback/yarn-error.log*
+corpback/lerna-debug.log*
+
+# OS
+corpback/.DS_Store
+
+# Tests
+/coverage
+/.nyc_output
+
+# IDEs and editors
+corpback/corpback/.idea
+corpback/.project
+corpback/.classpath
+corpback/.c9/
+corpback/*.launch
+corpback/.settings/
+corpback/*.sublime-workspace
+
+# IDE - VSCode
+corpback/.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
