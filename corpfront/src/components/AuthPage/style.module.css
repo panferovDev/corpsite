@@ -1,0 +1,36 @@
+
+.authWrapper{
+    margin-top: 10vh;
+    text-align: center;
+    padding: 1rem;
+}
+.authHead {
+    text-align: center;
+    width: 100%;
+}
+
+.authHead h3{
+    color: rgb(17, 2, 2);
+    text-decoration: dashed;
+}
+
+
+.logo {
+    border-radius: 50%;
+    animation: logo 5s infinite;
+  }
+  .logo:hover {
+    animation: none;
+  }
+  
+  @keyframes logo {
+    from {
+      transform: scale(.90);
+    }
+    70% {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(.90);
+    }
+  }
